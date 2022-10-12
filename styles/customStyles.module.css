@@ -1,0 +1,17 @@
+.metallicText {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/* font: {
+		size: 20vw;
+		family: $font;
+	}; */
+}
+
+.metallicText2 {
+    transition: translateY(-50%);
+    background:linear-gradient(#2a2a2a,#FFF,#2a2a2a);
+    -webkit-background-clip: text;
+    color:transparent;
+}
