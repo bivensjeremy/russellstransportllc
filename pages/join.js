@@ -60,7 +60,7 @@ const Join = () => {
 
             <Banner
                 title="Drive For Us"
-                image="/images/truckBanner3.jpg"
+                image="/images/transport/Picture9_banner.jpg"
             />
 
             <Box sx={{ backgroundColor: "#000000" }}>
@@ -76,7 +76,7 @@ const Join = () => {
                     </Typography>
 
                     <Typography paragraph fontSize={24}>
-                        Submit the form below to give us a little information about your driving history. We will follow up with you shortly. Thank you for your interest.
+                        Submit the form below to give us a little information about your driving history. We will follow up with you within 24-48 hours. Thank you for your interest.
                     </Typography> 
                 </Box>
 
@@ -99,7 +99,7 @@ const Join = () => {
                                         "Clean Drug Test",
                                         "DOT Medical Card",
                                         "Class A CDL",
-                                        "Age 21 or older",
+                                        "Age 26 or older",
                                         "At least six months of OTR experience"
                                     ]}
                                 />

@@ -1,4 +1,4 @@
-import { Card, Box, Typography, Stack, Divider, Grid } from "@mui/material";
+import { Card, Box, Typography, Stack, Divider, Grid, Button } from "@mui/material";
 import Link from "next/link";
 
 const CommitCardRedesign = () => {
@@ -44,7 +44,7 @@ const CommitCardRedesign = () => {
                         divider={<Divider orientation="vertical" flexItem color="#FFF" />
                     }>
                         <Typography color="#FFF" variant="h5" fontStyle="italic">
-                            Local and OTR (Southeast Region)
+                            Local to Atlanta & OTR (Southeast Region)
                         </Typography>
 
                         <Typography color="#FFF" variant="h5" fontStyle="italic">
@@ -57,12 +57,21 @@ const CommitCardRedesign = () => {
                     </Stack>
 
                     <Typography variant="h6"  textAlign="center" gutterBottom color="#FFF">
-                        If you need your freight moved in a timely and efficient manner, call us today for a freight quote. Additionally, if you are looking to join our trucking team located in the Southeast Region, we would love for you to fill out our <Link href="/join"><a>
+                        Call us today for a freight quote. If you are looking to join our trucking team located in the Southeast Region, we would love for you to fill out our <Link href="/join"><a>
                             <Typography variant="variant" color="primary">
                                 online interest application.
                             </Typography>
                         </a></Link>
                     </Typography>
+
+                    <Box sx={{ textAlign: 'center' }}>
+                        <Link href="/join"><a>
+                            <Button variant="contained" color="primary" sx={{ fontSize: 20 }}>
+                                Join Our Team
+                            </Button>
+                        </a></Link>
+                    </Box>
+                    
                 </Card>
             </Card>
         </div>

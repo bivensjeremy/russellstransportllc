@@ -1,7 +1,7 @@
 export const featuresData = [
     {
         id: 1,
-        image: '/images/transport/localtruck.jpg',
+        image: '/images/transport/Picture9.jpg',
         data: 'Same day pickup and local delivery'
     },
     {
@@ -11,13 +11,13 @@ export const featuresData = [
     },
     {
         id: 3,
-        image: '/images/transport/timecritical.jpg',
+        image: '/images/transport/Picture8.jpg',
         data: 'Time Critical Hauls'
     },
     {
         id: 4,
-        image: '/images/transport/wideload.jpg',
-        data: 'Wide Load Hauls/Access Permits'
+        image: '/images/transport/Picture6.jpg',
+        data: 'Oversized Hauls'
     },
     {
         id: 5,

@@ -37,13 +37,13 @@ const Splash = () => {
 
                     <Box sx={{ py: 2, textShadow: 'none' }}>
                         <Typography variant="h5" fontFamily="Passion One">
-                            Transportation is what we do. We are prepared to handle a variety of transports to suit your needs.
+                            Transportation is what we do! We are prepared to handle a variety of your freight hauling needs.
                         </Typography>   
                     </Box> 
                     
-                    <Link href="/join"><a>
+                    <Link href="/contact"><a>
                         <Button variant="contained" size="large" color="primary" sx={{ fontSize: 20 }}>
-                            Join Our Team
+                            Request a Quote
                         </Button>
                     </a></Link>
                 </Box> 

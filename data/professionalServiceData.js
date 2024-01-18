@@ -4,10 +4,11 @@ export const professionalServiceData = [
       icon: "local_shipping",
       name: "Services",
       data: [
-        "Long Haul",
-        "Short Haul",
-        "Wide Loads",
-        "Effectively Book Loads (Dispatching)"
+        "Expedited Shipping",
+        "Specialized Cargo Handling",
+        "24/7 Customer Support & Tracking",
+        "Flexible Load Scheduling",
+        "Short & Long Haul Loads",
       ]
     },
     {
@@ -17,7 +18,7 @@ export const professionalServiceData = [
       data: [
         "Same day pickup & delivery",
         "Adhere to time-critical loads",
-        "On-time pickup appointments",
+        "On-time Pickup & Delivery Appointments",
         "Efficiently, quickly, & safely strapping & securing loads"
       ]
     },
@@ -28,7 +29,7 @@ export const professionalServiceData = [
         data: [
           "Professionalism at all times",
           "Safely strap and secure loads (including chains and tarps)",
-          "Proficiently picking up and delivery loads"
+          "Safety Driven & Reliable",
         ] 
     },
     {
@@ -37,10 +38,7 @@ export const professionalServiceData = [
     name: "Location",
     data: [
       "Pickup and deliver freight in the Southeast Region",
-      "Georgia, Florida, Alabama",
-      "Mississippi, Tennessee, Louisiana",
-      "Arkansas, Kentucky, Texas",
-      "Virginia, South Carolina, North Carolina",
+      "Local Atlanta & Surrounding Areas",
     ]
   },
 ]
