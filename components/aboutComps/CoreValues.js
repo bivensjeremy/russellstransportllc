@@ -22,7 +22,7 @@ const CoreValues = () => {
                 
                 <Grid container>
                     {valuesData.map((value) => (
-                        <Grid item xs={6} md={4}>
+                        <Grid item xs={6} md={4} key={value}>
                             <Typography paragraph fontSize={24} align="justify">
                                 <TaskAltIcon sx={{ mr: 1 }}/>
                                 {value}

@@ -40,7 +40,7 @@ const governmentcontracting = () => {
                     
                     <Grid container>
                         {govtContractingData[1].data.map((data) => (
-                            <Grid item xs={4}>
+                            <Grid item xs={4} key={data}>
                                 <Typography paragraph fontSize={20}>
                                     {data}
                                 </Typography>
@@ -76,7 +76,7 @@ const governmentcontracting = () => {
                     
                     <List>
                         {govtContractingData[3].data.map(({company, details}) => (
-                            <Box sx={{ py: 1 }}>
+                            <Box sx={{ py: 1 }} key={company}>
                                 <Typography sx={{ fontWeight: "bold" }}>
                                     {company}
                                 </Typography>
