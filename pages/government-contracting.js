@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
-import { Avatar, Box, Grid, List, ListItem, ListItemAvatar, ListItemText, Typography } from "@mui/material";
+import { Avatar, Box, Grid, List, ListItem, ListItemAvatar, ListItemIcon, ListItemText, Typography } from "@mui/material";
 import { govtContractingData } from "../data/govtContractingData";
 import CircleIcon from '@mui/icons-material/Circle';
+import { AccountCircle, LocationOn, Mail, Phone } from "@mui/icons-material";
 
 const governmentcontracting = () => {
     return (
@@ -17,7 +18,8 @@ const governmentcontracting = () => {
             />
 
             <Box sx={{ backgroundColor: "#000000" }}>
-                {/* Company Summary */}
+                <Box sx={{ maxWidth: 'xl', mx: 'auto'}}>
+                    {/* Company Summary */}
                 <Box sx={{ py: 2, px: {xs: 3, md: 16}, textAlign: 'center', color: '#FFF' }}>
                     <Typography variant="h3" fontSize={42} letterSpacing={2} color="primary" fontFamily="Passion One" textTransform="uppercase">
                         {govtContractingData[0].name}
@@ -69,7 +71,7 @@ const governmentcontracting = () => {
                 </Box>
 
                 {/* Past Performance */}
-                <Box sx={{ py: 2, px: {xs: 3, md: 16}, textAlign: 'center', color: '#FFF' }}>
+                {/* <Box sx={{ py: 2, px: {xs: 3, md: 16}, textAlign: 'center', color: '#FFF' }}>
                     <Typography variant="h3" fontSize={42} letterSpacing={2} color="primary" fontFamily="Passion One" textTransform="uppercase">
                         {govtContractingData[3].name}
                     </Typography>
@@ -84,22 +86,73 @@ const governmentcontracting = () => {
                             </Box>
                         ))}
                     </List>
-                </Box>
+                </Box> */}
 
                 {/* NAICS Codes */}
                 <Box sx={{ py: 2, px: {xs: 3, md: 16}, textAlign: 'center', color: '#FFF' }}>
                     <Typography variant="h3" fontSize={42} letterSpacing={2} color="primary" fontFamily="Passion One" textTransform="uppercase">
-                        {govtContractingData[4].name}
+                        {govtContractingData[3].name}
                     </Typography>
 
                     <List>
-                        {govtContractingData[4].data.map((data) => (
+                        {govtContractingData[3].data.map((data) => (
                             <ListItem key={data}>
                                 <ListItemText primary={data} />
                             </ListItem>
                         ))}
                     </List>
                 </Box>
+
+                {/* Contact Us */}
+                <Box sx={{ py: 2, px: {xs: 3, md: 16}, textAlign: 'center', color: '#FFF' }}>
+                    <Typography variant="h3" fontSize={42} letterSpacing={2} color="primary" fontFamily="Passion One" textTransform="uppercase">
+                        Contact Us
+                    </Typography>
+
+                    <List sx={{ m:'auto'}}>
+                        <ListItem>
+                            <ListItemAvatar>
+                                <Avatar>
+                                    <AccountCircle color="secondary" />
+                                </Avatar>
+                            </ListItemAvatar>
+                            <ListItemText primary="Taricka Russell, CEO" />
+                        </ListItem>
+
+                        <ListItem>
+                            <ListItemAvatar>
+                                <Avatar>
+                                    <Mail color="secondary" />
+                                </Avatar>
+                            </ListItemAvatar>
+                            <ListItemText primary="info@russellstransportllc.com" />
+                        </ListItem>
+
+                        <ListItem>
+                            <ListItemAvatar>
+                                <Avatar>
+                                    <Phone color="secondary" />
+                                </Avatar>
+                            </ListItemAvatar>
+                            <ListItemText primary="(478) 595-1817" />
+                        </ListItem>
+
+                        <ListItem>
+                            <ListItemAvatar>
+                                <Avatar>
+                                    <LocationOn color="secondary" />
+                                </Avatar>
+                            </ListItemAvatar>
+                            <ListItemText primary="Atlanta, GA" />
+                        </ListItem>
+
+                        <ListItem >
+                            <ListItemText primary="UEI #: EW5VPKU6U2G3" />
+                        </ListItem>
+                    </List>
+                </Box>
+                </Box>
+                
             </Box>
         </div>
     );

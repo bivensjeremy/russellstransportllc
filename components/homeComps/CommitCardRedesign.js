@@ -44,7 +44,7 @@ const CommitCardRedesign = () => {
                         divider={<Divider orientation="vertical" flexItem color="#FFF" />
                     }>
                         <Typography color="#FFF" variant="h5" fontStyle="italic">
-                            Local to Atlanta & OTR (Southeast Region)
+                            OTR (Southeast Region)
                         </Typography>
 
                         <Typography color="#FFF" variant="h5" fontStyle="italic">

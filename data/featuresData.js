@@ -16,7 +16,7 @@ export const featuresData = [
     },
     {
         id: 4,
-        image: '/images/transport/Picture6.jpg',
+        image: '/images/transport/Picture10.jpg',
         data: 'Oversized Hauls'
     },
     {

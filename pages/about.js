@@ -24,7 +24,7 @@ const about = () => {
 
                 <AboutUsSection 
                     header="Who We Are"
-                    data="Russell&apos;s Transport, LLC is a reputable family owned and operated small business located in the South Atlanta, Georgia area.  We have been in the transportation industry for more than 5 years and have not looked back since. We chose transportation because of the consistency it brings which has allowed us to advance and grow in our business. We believe in learning the industry, staying patient, and booking loads according to what makes sense. We are passionate about continuously learning and growing to ensure we are providing our clients with the best service possible. One unique thing about our business is that we are still in the field of hauling freight. This allows us to stay in tune with what is going on in the market and adapt as needed."
+                    data="Russell&apos;s Transport, LLC is a reputable family owned and operated small business located in the South Atlanta, Georgia area.  We have been in the transportation industry for more than 7 years and have not looked back since. We chose transportation because of the consistency it brings which has allowed us to advance and grow in our business. We believe in learning the industry, staying patient, and booking loads according to what makes sense. We are passionate about continuously learning and growing to ensure we are providing our clients with the best service possible. One unique thing about our business is that we are still in the field of hauling freight. This allows us to stay in tune with what is going on in the market and adapt as needed."
                 />
 
                 <TruckImagesSection aboutImages={aboutImages} />

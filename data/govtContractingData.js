@@ -32,23 +32,6 @@ export const govtContractingData = [
         ]
     },
     {
-        name: "Past Performance",
-        data: [
-            {
-                company: "Bold Spring Nursery, LLC | Hawkinsville, GA | dana@boldspring.com",
-                details: "Pick-up and delivery of trees and products"
-            },
-            {
-                company: "Fox Freight Logistics, LLC | Kennesaw, GA | debterry@bellsouth.net",
-                details: "Pick-up and delivery of general freight"
-            },
-            {
-                company: "Sweetwater Creek Nursery | Knoxville, GA | doug@sweetwatercamellias.com",
-                details: "Pick-up and delivery of trees and products"
-            }
-        ]
-    },
-    {
         name: "NAICS Codes",
         data: [
             "484121 - General Freight Trucking, Long Distance Truckload",
