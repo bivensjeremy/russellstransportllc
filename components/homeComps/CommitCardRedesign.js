@@ -57,7 +57,7 @@ const CommitCardRedesign = () => {
                     </Stack>
 
                     <Typography variant="h6"  textAlign="center" gutterBottom color="#FFF">
-                        Call us today for a freight quote. If you are looking to join our trucking team located in the Southeast Region, we would love for you to fill out our <Link href="/join"><a>
+                        Call us today for a freight quote. If you are looking to join our trucking team located in the Local Atlanta and Southeast Region, we would love for you to fill out our <Link href="/join"><a>
                             <Typography variant="variant" color="primary">
                                 online interest application.
                             </Typography>

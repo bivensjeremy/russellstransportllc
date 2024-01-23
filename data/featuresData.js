@@ -2,7 +2,7 @@ export const featuresData = [
     {
         id: 1,
         image: '/images/transport/Picture9.jpg',
-        data: 'Same day pickup and local delivery'
+        data: 'Same day pickup and local Atlanta delivery'
     },
     {
         id: 2,
