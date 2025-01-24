@@ -34,7 +34,7 @@ const FeaturesSection = () => {
 			backgroundColor: '#000000', 
 		}}>
             <TaglineBar 
-                tagline="We Can Handle Anything" 
+                tagline="We can Handle your Freight Needs" 
             />
 
             <Grid container spacing={1}	px={4}>

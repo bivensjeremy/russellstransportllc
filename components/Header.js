@@ -68,10 +68,10 @@ const Header = () => {
 
                 <Divider sx={{ my: 0.5 }} />
 
-                <Link href='/services'><a>
+                <Link href='/government-contracting'><a>
                     <MenuItem>
                         <Typography>
-                            Services
+                            Government Contracting
                         </Typography>
                     </MenuItem>
                 </a></Link>
@@ -115,57 +115,60 @@ const Header = () => {
                         />
 
                         <Box sx={{ flexGrow: 1 }} />
+                        
+                        <Box>
+                            <ButtonGroup variant="text" size="large">
+                                <Box sx={{ display: {xs: 'none', md: 'flex'}}}>
+                                    <Link href="/"><Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}><a>
+                                        Home
+                                    </a></Button></Link>
+                                    
+                                    <Link href="/about">
+                                        <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}><a>
+                                            About Us
+                                        </a></Button>
+                                    </Link>
 
-                        <ButtonGroup variant="text" size="large">
-                            <Box sx={{ display: {xs: 'none', md: 'flex'}}}>
-                                <Link href="/"><Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}><a>
-                                    Home
-                                </a></Button></Link>
+                                    <Link href="/join">
+                                        <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}><a>
+                                            Drive For Us
+                                        </a></Button>
+                                    </Link>
                                 
+                                    {/* <Link href="/services">
+                                        <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}>
+                                        <a>    
+                                            Services
+                                        </a>   
+                                        </Button>
+                                    </Link>  */}
 
-                                <Link href="/about">
-                                    <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}><a>
-                                        About Us
-                                    </a></Button>
-                                </Link>
+                                    <Link href="/government-contracting">
+                                        <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}>
+                                        <a>    
+                                            Government Contracting
+                                        </a>   
+                                        </Button>
+                                    </Link> 
 
-                                <Link href="/join">
-                                    <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}><a>
-                                        Drive For Us
-                                    </a></Button>
-                                </Link>
-                            
-                                {/* <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}} onClick={handleAboutMenuOpen}>
-                                    About
-                                    <span className="material-icons-outlined">
-                                        arrow_drop_down
-                                    </span>
-                                </Button> */}
-
-                                {/* <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}} onClick={handleServicesMenuOpen}>
-                                    Services
-                                    <span className="material-icons-outlined">
-                                        arrow_drop_down
-                                    </span>
-                                </Button> */}
-                            
-                                <Link href="/services">
                                     <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}>
-                                    <a>    
-                                        Services
-                                    </a>   
+                                        <Link href="/contact"><a>    
+                                            Contact
+                                        </a></Link>    
                                     </Button>
-                                </Link> 
+                                
+                                </Box>
+                            </ButtonGroup>
 
-                                <Button sx={{color: '#FFF', '&:hover': { color: '#FFC947'}}}>
-                                    <Link href="/contact"><a>    
-                                        Contact
-                                    </a></Link>    
-                                </Button>
-                            
+                            <Box sx={{ textAlign: 'end', my: 0.5 }}>
+                                <Link href="/docs/Capability Statement Website Copy 1-19-24.pdf" download><a>
+                                    <Button variant="contained" startIcon={<span className="material-icons">download</span> }>
+                                        Capability Statement
+                                    </Button>
+                                </a></Link>
                             </Box>
-                        </ButtonGroup>
-
+                        </Box>
+                        
                         <Box sx={{ display: { xs: 'flex', md: 'none'}, color: "#FFF" }}>
                             <MenuIcon 
                                 onClick={handleMenuOpen}
@@ -173,8 +176,10 @@ const Header = () => {
                             />
                         </Box>
                     </Toolbar>
-                
+
+                    
                 </AppBar>
+                
             </Box>
             {renderMenu}
         </div>

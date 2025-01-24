@@ -50,7 +50,7 @@ const Contact = () => {
 
             <Banner
                 title="Contact Us"
-                image="/images/truckBanner.jpg"
+                image="/images/transport/Freight_day.jpg"
             />
 
             <Box sx={{ backgroundColor: '#000000' }}>
@@ -63,7 +63,7 @@ const Contact = () => {
 
                             <Typography variant="body1" color="#FFF" align="justify" fontSize={20} gutterBottom>
                                 {/* Feel free to contact us with any questions you have.  We offer quick replies and affordable rates. Our excellent service is what sets us apart from the rest.  With 24/7 service, I assure you, you&#39;re our TOP priority. */}
-                                Do you have a question about our dispatching services? What types of freight we haul? Maybe you&apos;d like to join our team! Feel free to send us a message and we&apos;ll get back to you as soon as possible!
+                                Do you have a question about our services? What types of freight we haul? Maybe you&apos;d like to join our team! Feel free to send us a message and we&apos;ll get back to you within 24-48 hours!
                             </Typography>
                         </Grid>
 

@@ -26,7 +26,7 @@ const Banner = (props) => {
             <Image
                  src={props.image}
                  
-                //  objectFit="cover"
+                 objectFit="cover"
                  width='2000%'
                 height='1000%'
                 alt="Truck Banner Image"

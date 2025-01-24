@@ -6,7 +6,7 @@ export const aboutImages = [
     },
     {
         id: 2,
-        image: "/images/transport/IMG_5951.jpg",
+        image: "/images/transport/Picture6.jpg",
         alt: 'truck image 2'
     },
     {
